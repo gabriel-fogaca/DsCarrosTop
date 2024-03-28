@@ -1,0 +1,13 @@
+.dct-card-car-container {
+    background-color: var(--color-bg-quaternary);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dct-card-comment-container {
+    background-color: var(--color-bg-tertiary);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

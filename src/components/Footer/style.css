@@ -1,0 +1,31 @@
+.cdt-footer {
+    background-color: var(--color-bg-primary);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+    padding: 34px 0;
+}
+
+.cdt-footer a, p {
+    color: var(--color-primary);
+    font-family: 'poppins';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.cdt-footer a {
+    padding-bottom: 10px;
+}
+
+.cdt-footer p {
+    font-style: italic;
+}
+
+@media (min-width: 1200px) {
+    .cdt-footer {
+        justify-content: space-between;
+        flex-direction: row;
+        padding: 0 120px;
+    }
+}

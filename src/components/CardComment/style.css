@@ -1,0 +1,48 @@
+.dct-card-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.dct-card-title h3 {
+    font-family: 'poppins';
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-secundary);
+    padding: 25px 0;
+}
+
+.dct-card-comment {
+    background-color: var(--color-bg-quaternary);
+    border-radius: 12px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 280px;
+    height: 146px;
+}
+
+.dct-card-comment p {
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-tertiary);
+    padding: 25px 20px;
+}
+
+@media(min-width: 1200px) {
+    .dct-card-title h3 {
+        font-size: 32px;
+    }
+
+    .dct-card-comment {
+        max-width: 960px;
+        height: 74px;
+    }
+
+    .dct-card-comment p {
+        padding: 25px 128px 25px 20px;
+    }
+
+}

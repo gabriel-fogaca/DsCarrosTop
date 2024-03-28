@@ -1,0 +1,47 @@
+.dct-car {
+    background-color: var(--color-bg-quaternary);
+    margin: 10px 10px 0 10px;
+}
+
+.dct-car img {
+    width: 260px;
+    height: 194px;
+}
+
+.dct-cardCar {
+    background-color: var(--color-bg-quaternary);
+    border: 1px solid var(--color-bg-primary);
+    width: 280px;
+    height: 248px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.dct-cardCar p {
+    color: var(--color-secundary);
+    font-family: poppins;
+    font-size: 16px;
+}
+
+
+
+@media (min-width: 1200px) {
+    .dct-car img {
+        width: 391px;
+        height: 292px;
+
+    }
+
+    .dct-cardCar {
+        width: 746px;
+        height: 352px;
+    }
+
+    .dct-cardCar p {
+        font-size: 20px;
+    }
+
+}

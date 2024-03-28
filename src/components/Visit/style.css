@@ -1,0 +1,19 @@
+.dct-visit {
+    padding: 25px 0;
+}
+
+.dct-visit a {
+    color: var(--color-secundary);
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+
+}    
+
+@media (min-width: 1200px) {
+
+    .dct-visit a {
+        font-size: 32px;
+    }    
+
+}
